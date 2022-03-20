@@ -1,0 +1,190 @@
+arrow1,
+arrow2 {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 145px;
+    top: 2px;    
+}
+
+arrow2 {
+    left: 120px;
+}
+
+bag1 {
+    position: absolute;
+    font-size: 27px;
+    left: 25px;
+    top: 22px;
+}
+
+bag2 {
+    font-size: 45px;
+    margin-left: 18px; 
+    margin-top: 15px
+}
+
+credit_card {
+    position: absolute;
+    left: 43.5%;
+    right: 25.49%;
+    top: 22px;
+    bottom: 72.42%;
+
+    font-size: 45px;
+}
+
+house {
+    position: absolute;
+    left: 83.96%;
+    right: 12.12%;
+    top: 22px;
+    bottom: 85.87%;
+
+    font-size: 45px;
+}
+
+partner,
+about_eatmi,
+sustain,
+view_shop,
+my_profile,
+my_coupon,
+order_history,
+FAQS,
+term_condition,
+privacy_policy {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+    
+}
+
+partner {
+    position: absolute;
+    width: 73px;
+    height: 29px;
+    left: 0px;
+    top: 53px;
+}
+
+about_eatmi {
+    position: absolute;
+    width: 177px;
+    height: 39px;
+    left: 0px;
+    top: 107px;
+}
+
+sustain {
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    left: 0px;
+    top: 159px;
+}
+
+view_shop {
+    position: absolute;
+    width: 100.96px;
+    height: 55px;
+    left: 226.04px;
+    top: 53px;    
+}
+
+my_profile {
+    position: absolute;
+    width: 192px;
+    height: 55px;
+    left: 375px;
+    top: 56px;
+}
+
+my_coupon {
+    position: absolute;
+    width: 194px;
+    height: 55px;
+    left: 375px;
+    top: 111px;
+}
+
+order_history {
+    position: absolute;
+    width: 192px;
+    height: 36px;
+    left: 375px;
+    top: 166px;
+}
+
+FAQS {
+    position: absolute;
+    width: 54px;
+    height: 29px;
+    left: 620px;
+    top: 58px;
+}
+
+term_condition {
+    position: absolute;
+    left: 12.64%;
+    right: 55.69%;
+    top: 85.55%;
+    bottom: 2.58%;
+}
+
+privacy_policy {
+    position: absolute;
+    left: 27.64%;
+    right: 33.26%;
+    top: 85.55%;
+    bottom: 2.58%;
+}
+
+our_story,
+shop,
+my_account,
+help {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+our_story {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+}
+
+shop {
+    position: absolute;
+    width: 69.21px;
+    height: 32px;
+    left: 225px;
+    top: 0px;
+}
+
+my_account {
+    position: absolute;
+    width: 157px;
+    height: 31px;
+    left: 375px;
+    top: 0px;
+}
+
+help {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 617px;
+    top: 0px;
+}

@@ -1,0 +1,93 @@
+.create_account_button {
+    position: absolute;
+    left: 35.26%;
+    right: 25%;
+    top: 271px;
+    bottom: 20.57%;    
+
+    width: 230px;
+    height: 48px;
+
+    background: #F4D06F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.create_account_text {
+    position: center;
+    left: 43.26%;
+    right: 45.28%;
+    top: 28.41%;
+    bottom: 70.17%;
+
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.no_account {
+    position: absolute;
+    left: 34.77%;
+    right: 25%;
+    top: 178px;
+    bottom: 20.57%;    
+
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.progress_taskbar {
+    position: absolute;
+    left: 17.5%;
+    right: 12.42%;
+    top: 20.59%;
+    bottom: 83.6%;
+}
+
+.circle {
+    position: absolute;
+    left: 17.5%;
+    right: 77.34%;
+    top: 10.59%;
+    bottom: 84.25%;
+
+    height: 80px;
+    width: 74.29px;
+    left: 20px;
+    border-radius: 80px;    
+
+    background: #FECC2F;
+}
+
+.left_rect,
+.right_rect {
+    position: absolute;
+    left: 23.47%;
+    right: 53.24%;
+    top: 35px;
+    bottom: 40%;
+
+    background: #EBD1B9;
+    border-radius: 15px;
+
+    height: 14.86px;
+    width: 335.35px;
+    border-radius: 15px;    
+}
+
+.left_rect {
+    left: 105.76px;
+}
+
+.right_rect {
+    left: 535.57px;
+}
