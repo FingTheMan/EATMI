@@ -1,11 +1,12 @@
 .footer {
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 110.88%;
-    bottom: -75%;
+    left: 0px;
+    right: 0px;
+    top: 800px;
+    bottom: -600px;
 
     background: #F9B609;
+    justify-content: center;
 }
 
 .footer_taskbar {
@@ -15,10 +16,10 @@
     padding: 0px;
     
     position: absolute;
-    left: 26.53%;
-    right: 26.53%;
-    top: 77.99%;
-    bottom: 8.97%;
+    left: 0px;
+    right: 0px;
+    top: 800px;
+    bottom: -300px;
 }
 
 .taskbar_box {
@@ -28,10 +29,10 @@
     padding: 0px;
     
     position: absolute;
-    left: 26.53%;
-    right: 26.53%;
-    top: 25.99%;
-    bottom: 8.97%;
+    left: 403px;
+    right: 0px;
+    top: 120px;
+    bottom: 0px;
 }
 
 .first_taskbar {
@@ -101,24 +102,24 @@
 
 .AIESEC {
     position: absolute;
-    left: 41.52%;
-    right: 40.21%;
-    top: 5%;
-    bottom: 25.76%;
+    left: 630px;
+    right: 0px;
+    top: 25px;
+    bottom: 0px;
 }
 
 .fb {
     position: absolute;
-    left: 81.18%;
-    right: 16.67%;
-    top: 85.55%;
-    bottom: 2.45%;
+    left: 1235px;
+    right: 0px;
+    top: 395px;
+    bottom: 0px;
 }
 
 .ig {
     position: absolute;
-    left: 85.21%;
-    right: 12.64%;
-    top: 85.55%;
-    bottom: 2.45%;
+    left: 1295px;
+    right: 0px;
+    top: 395px;
+    bottom: 0px;
 }
