@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>payment no account</title>
@@ -8,6 +9,7 @@
                 background-repeat: no-repeat;
                 background-attachment: scroll;
                 background-position-y: 500px;
+                margin: 0 auto;
             }
         </style>
         <link rel="stylesheet" href="no_account.css lists/body.css">
@@ -16,38 +18,68 @@
         <link rel="stylesheet" href="no_account.css lists/footer.css">
         <link rel="stylesheet" href="assets/css/all.css">
     </head>
-    <header class="header">
-        <box class="eatmi_box">
-            <div class="eatmi_icon">
-                <p class="eatmi_text">EATMI</p>
-            </div>
-        </box>
-        <box class="left_taskbar">
-            <box class="our_story_box">
-                <p class="our_story_text">OUR STORY<arrow1 class="fa-regular fa-angle-down"></arrow1></p>            
-            </box>
-            <box class="shop_box">
-                <p class="shop_text">SHOP</p> 
-            </box>           
-            <box class="my_account_box">
-                <p class="my_account_text">MY ACCOUNT<arrow2 class="fa-regular fa-angle-down"></arrow2></p>
-            </box>
-        </box>
-        <box class="right_taskbar">
-            <div class="bag">
-                <bag1 class="fa-regular fa-shopping-bag"></bag1>
-            </div>
-            <button class="sign_up_button">
-                <p class="sign_up_text">Sign up</p>
-            </button>
-            <a href="payment_card no account (ไทย).html">
-                <p class="Eng_Thai">EN/TH</p>
-            </a>
-        </box>
-    </header>
     <body>
+        <header class="header, header_shade">
+            <box class="eatmi_icon">
+                <p class="eatmi_text">EATMI</p>
+            </box>
+            <box class="left_taskbar">            
+                <p class="shop_text">Shop</p>   
+                <p class="my_account_text">My Account<arrow1 class="fa-regular fa-angle-down"></arrow1></p>      
+                <div class="select-box1">
+                    <div class="options-container1">
+                      <div class="option1">
+                        <input type="radio" class="radio" id="my_profile" name="category"/>
+                        <label for="my_profile">My Profile</label>
+                      </div>
+            
+                      <div class="option1">
+                        <input type="radio" class="radio" id="my_coupon" name="category" />
+                        <label for="my_coupon">My Coupon</label>
+                      </div>
+            
+                      <div class="option1">
+                        <input type="radio" class="radio" id="order_history" name="category" />
+                        <label for="order_history">Order History</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="our_story_text">Our Story<arrow2 class="fa-regular fa-angle-down"></arrow2></p>
+                <div class="select-box2">
+                    <div class="options-container2">
+                      <div class="option2">
+                        <input type="radio" class="radio" id="partner" name="category"/>
+                        <label for="partner">Partner</label>
+                      </div>
+            
+                      <div class="option2">
+                        <input type="radio" class="radio" id="about_eatmi" name="category" />
+                        <label for="about_eatmi">About Eatmi</label>
+                      </div>
+            
+                      <div class="option2">
+                        <input type="radio" class="radio" id="sustain" name="category" />
+                        <label for="sustain">Sustainability Journey</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </box>
+            <box class="right_taskbar">
+                <div class="bag">
+                    <bag1 class="fa-regular fa-shopping-bag"></bag1>
+                </div>
+                <button class="sign_up_button">
+                    <p class="sign_up_text">name</p>
+                </button>
+                <a href="payment_card no account (ไทย).html">
+                    <p class="Eng_Thai">EN/TH</p>
+                </a>
+            </box>
+        </header>
         <box class="progress_taskbar">
-            <div class="circle">
+            <div class="circle1">
                 <bag2 class="fa-regular fa-shopping-bag"></bag2>
             </div>
             <div class="left_rect"></div>
@@ -56,42 +88,43 @@
             <house class="fa-regular fa-house"></house>
             <p class="no_account">Haven't created an account?</p>
             <button class="create_account_button">
-                <div class="create_account_text" style>Create Account</div>
+                <div class="create_account_text">Create Account</div>
             </button>
-        </box>   
-    </body>
-    <footer class="footer">
-        <img src="assets/imgs/AIESEC.png" class="AIESEC">
-        <box class="taskbar_box">
-            <box class="first_taskbar">
-                <our_story>OUR STORY</our_story>
-                <partner>Partner</partner>
-                <about_eatmi>About Eatmi</about_eatmi>
-                <sustain>Sustainability Journey</sustain>
-            </box>
-            <box class="second_taskbar">
-                <shop>SHOP</shop>
-                <view_shop>View Shop</view_shop>
-            </box>
-            <box class="third_taskbar">
-                <my_account>MY ACCOUNT</my_account>
-                <my_profile>My Profile</my_profile>
-                <my_coupon>My Coupon</my_coupon>
-                <order_history>Order History</order_history>
-            </box>
-            <box class="last_taskbar">
-                <help>HELP</help>
-                <FAQS>FAQS</FAQS>
-            </box>
         </box>
-        <div class="line"></div>
-        <term_condition>Term & Conditon</term_condition>
-        <privacy_policy>Privacy Policy</privacy_policy>
-        <a href="https://www.facebook.com/Eatmiofficial-104472018763586" target="_blank">
-            <img src="assets/icon/fb.png" class="fb">
-        </a>
-        <a href="https://www.instagram.com/eatmi.official/?hl=th" target="_blank">
-            <img src="assets/icon/ig.png" class="ig">            
-        </a>
-    </footer>
+        <footer class="footer">
+            <img src="assets/imgs/AIESEC.png" class="AIESEC">
+            <box class="taskbar_box">
+                <box class="first_taskbar">
+                    <our_story>OUR STORY</our_story>
+                    <partner>Partner</partner>
+                    <about_eatmi>About Eatmi</about_eatmi>
+                    <sustain>Sustainability Journey</sustain>
+                </box>
+                <box class="second_taskbar">
+                    <shop>SHOP</shop>
+                    <view_shop>View Shop</view_shop>
+                </box>
+                <box class="third_taskbar">
+                    <my_account>MY ACCOUNT</my_account>
+                    <my_profile>My Profile</my_profile>
+                    <my_coupon>My Coupon</my_coupon>
+                    <order_history>Order History</order_history>
+                </box>
+                <box class="last_taskbar">
+                    <help>HELP</help>
+                    <FAQS>FAQS</FAQS>
+                </box>
+            </box>
+            <div class="line"></div>
+            <term_condition>Term & Conditon</term_condition>
+            <privacy_policy>Privacy Policy</privacy_policy>
+            <a href="https://www.facebook.com/Eatmiofficial-104472018763586" target="_blank">
+                <img src="assets/icon/fb.png" class="fb">
+            </a>
+            <a href="https://www.instagram.com/eatmi.official/?hl=th" target="_blank">
+                <img src="assets/icon/ig.png" class="ig">            
+            </a>
+        </footer>
+        <script src="javascript/script.js"></script>
+    </body>
 </html>
