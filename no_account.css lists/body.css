@@ -1,264 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
-.header {
-    position: sticky;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 89.15%;
+.create_account_button {
+    position: absolute;
+    left: 375px;
+    right: 0px;
+    top: 263px;
+    bottom: 20.57%;    
+    z-index: -1;
+
+    width: 230px;
+    height: 48px;
+
+    background: #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    cursor: pointer;
 }
 
-.header_shade {
-    position: sticky;
+.create_account_text {
+    position: absolute;
     left: 0%;
     right: 0%;
-    top: 0%;
-    bottom: 89.15%;
-        
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.085) 0%, rgba(196, 196, 196, 0) 100%);
-    background-size: cover;
-}
+    top: 30%;
+    bottom: 70.17%;
+    z-index: -1;
 
-.eatmi_text,
-.our_story_text,
-.shop_text,
-.my_account_text,
-.sign_up_text,
-.Eng_Thai,
-.option1,
-.option2 {
-    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 22px;
-    line-height: 32px;
+    line-height: 22px;
 
     color: #000000;
 }
 
-.eatmi_icon {
+.no_account {
     position: absolute;
-    left: 70px;
-    right: 90.14%;
-    top: 12px;
-    bottom: 91.48%;
+    left: 284px;
+    right: 0px;
+    top: 168px;
+    bottom: 0px;    
+    z-index: -1;
 
-    height: 72px;
-    width: 72px;
-    border-radius: 36px;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
 
-    background: #F9B609;
+    color: #000000;
 }
 
-.eatmi_text {
+.progress_taskbar {
     position: absolute;
-    left: 3%;
-    right: 90.35%;
-    top: -6.1%;
-    bottom: 92.64%;
-    
-    font-weight: 400;
-    line-height: 35px;
-
-    color: #FFFFFF;
+    left: 275px;
+    right: 0px;
+    top: 292px;
+    bottom: 0px;
 }
 
-.left_taskbar {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 80px;
-    
+.circle1 {
     position: absolute;
-    left: 67px;
-    right: 54.38%;
-    top: 10px;
-    bottom: 92.9%;
-}
-
-.shop_text {
-    position: absolute;
-    width: 55px;
-    height: 32px;
-    left: 146px;
+    left: 20px;
+    right: 0px;
     top: 0px;
+    bottom: 0px;
+
+    height: 80px;
+    width: 74.29px;
+    border-radius: 80px;    
+
+    background: #FECC2F;
 }
 
-.my_account_text {
+.circle2 {
     position: absolute;
-    left: 255px;
-    top: -12px;
+    left: 452px;
+    right: 0px;
+    top: 5px;
+    bottom: 0px;
+
+    height: 80px;
+    width: 74.29px;
+    border-radius: 80px;    
+
+    background: #FECC2F;
 }
 
-.our_story_text {
+.left_rect,
+.right_rect {
     position: absolute;
-    width: 106px;
-    height: 32px;
-    left: 480px;
-    top: -12px;
+    right: 0px;
+    top: 35px;
+    bottom: 40%;
+
+    background: #EBD1B9;
+    border-radius: 15px;
+
+    height: 14.86px;
+    width: 335.35px;
+    border-radius: 15px;    
 }
 
-.my_account_text:hover,
-.our_story_text:hover {
-    color: #F9B609 
+.left_rect {
+    left: 105.76px;
 }
 
-.option1,
-.option2 {
-    margin-bottom: -12px;
-    width: 140px;
-    font-size: 20px;
-}
-
-.select-box1 {
-    position: absolute;
-    width: 126px;
-    height: 32px;
-    left: 255px;
-    top: 60px;
-}
-
-.select-box2 {
-    position: absolute;
-    width: 126px;
-    height: 32px;
-    left: 480px;
-    top: 60px;
-}
-
-.options-container1,
-.options-container2 {
-    color: #f5f6fa;
-    max-height: 0;
-    width: 200px;
-    opacity: 0;
-    transition: all 0.4s;
-    border-radius: 8px;
-    overflow: hidden;
-  
-    order: 1;
-}
-  
-.select-box1 .options-container1.active,
-.select-box2 .options-container2.active {
-    max-height: 240px;
-    opacity: 1;
-    overflow-y: scroll;
-}
-  
-.select-box1 .options-container1::-webkit-scrollbar,
-.select-box2 .options-container2::-webkit-scrollbar {
-    width: 8px;
-    background: #0d141f;
-    border-radius: 0 8px 8px 0;
-}
-  
-.select-box1 .options-container1::-webkit-scrollbar-thumb,
-.select-box2 .options-container2::-webkit-scrollbar-thumb {
-    background: #525861;
-    border-radius: 0 8px 8px 0;
-}
-  
-.select-box1 .option1,
-.select-box2 .option2,
-.my_account_text,
-.our_story_text {
-    padding: 12px 24px;
-    cursor: pointer;
-}
-  
-.select-box1 label,
-.select-box2 label {
-    cursor: pointer;
-}
-  
-.select-box1 .option1 .radio,
-.select-box2 .option2 .radio {
-    display: none;
-}
-
-.right_taskbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    
-    position: absolute;
-    left: 1070px;
-    right: 73px;
-    top: 10px;
-    bottom: 92.32%;
-
-    float: right;
-}
-
-.bag {
-    position: static;
-    width: 56px;
-    height: 47px;
-    left: 0px;
-    top: 0px;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 32px;
-}
-
-.sign_up_button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    
-    position: absolute;
-    width: 128px;
-    height: 39px;
-    left: 88px;
-    top: 8.5px;    
-    
-    background: #FFFFFF;
-    border: 3px solid #F9B609;
-    box-sizing: border-box;
-    
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
-
-    cursor: pointer;
-}
-
-.sign_up_text {
-    position: absolute;
-    width: 100px;
-    height: 32px;
-    left: auto;
-    top: -24px;  
-    
-    color: #F9B609;
-}
-
-.Eng_Thai {
-    position: absolute;
-    width: 79px;
-    height: 47px;
-    left: 220px;
-    top: 20px;
-    
-    font-size: 24px;
-    line-height: 35px;
-    
-    mix-blend-mode: normal;
-    
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0px 32px;
+.right_rect {
+    left: 535.57px;
 }
