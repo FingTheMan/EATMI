@@ -1,14 +1,19 @@
+html,
+body {
+    justify-content: left;
+}
+
 arrow1,
 arrow2 {
     position: absolute;
-    width: 20px;
-    height: 30px;
-    left: 145px;
-    top: 2px;    
+    width: 10px;
+    height: 15px;
+    left: 175px;
+    top: 17px;    
 }
 
-arrow2 {
-    left: 120px;
+arrow1 {
+    left: 140px;
 }
 
 bag1 {
@@ -18,28 +23,38 @@ bag1 {
     top: 22px;
 }
 
-bag2 {
+bag2,
+bag3 {
     font-size: 45px;
     margin-left: 18px; 
     margin-top: 15px
 }
+bag3 {
+    margin-left: 38px; 
+}
 
-credit_card {
+credit_card,
+credit_in_circle {
     position: absolute;
-    left: 43.5%;
-    right: 25.49%;
+    left: 464px;
+    right: 0px;
     top: 22px;
-    bottom: 72.42%;
+    bottom: 0px;
 
     font-size: 45px;
 }
 
+credit_in_circle {
+    left: 12px;
+    top: 17px;
+}
+
 house {
     position: absolute;
-    left: 83.96%;
-    right: 12.12%;
+    left: 892px;
+    right: 0px;
     top: 22px;
-    bottom: 85.87%;
+    bottom: 0px;
 
     font-size: 45px;
 }
@@ -84,7 +99,7 @@ about_eatmi {
 
 sustain {
     position: absolute;
-    width: 200px;
+    width: 177px;
     height: 39px;
     left: 0px;
     top: 159px;
@@ -103,7 +118,7 @@ my_profile {
     width: 192px;
     height: 55px;
     left: 375px;
-    top: 56px;
+    top: 53px;
 }
 
 my_coupon {
@@ -111,7 +126,7 @@ my_coupon {
     width: 194px;
     height: 55px;
     left: 375px;
-    top: 111px;
+    top: 107px;
 }
 
 order_history {
@@ -119,7 +134,7 @@ order_history {
     width: 192px;
     height: 36px;
     left: 375px;
-    top: 166px;
+    top: 159px;
 }
 
 FAQS {
@@ -127,23 +142,23 @@ FAQS {
     width: 54px;
     height: 29px;
     left: 620px;
-    top: 58px;
+    top: 53px;
 }
 
 term_condition {
     position: absolute;
-    left: 12.64%;
-    right: 55.69%;
-    top: 85.55%;
-    bottom: 2.58%;
+    left: 193px;
+    right: 0px;
+    top: 395px;
+    bottom: 0px;
 }
 
 privacy_policy {
     position: absolute;
-    left: 27.64%;
-    right: 33.26%;
-    top: 85.55%;
-    bottom: 2.58%;
+    left: 420px;
+    right: 0px;
+    top: 395px;
+    bottom: 0px;
 }
 
 our_story,
