@@ -1,24 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+
 .header {
-    position: absolute;
+    position: sticky;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 89.15%;
-
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.085) 0%, rgba(196, 196, 196, 0) 100%);
 }
 
-.eatmi_box,
-.eatmi_icon {
-    position: absolute;
-    left: 2.71%;
-    right: 92.29%;
-    top: 2.03%;
-    bottom: 94.32%;
-
-    height: 72px;
-    width: 72px;
-    border-radius: 72px;
+.header_shade {
+    position: sticky;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 89.15%;
+        
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.085) 0%, rgba(196, 196, 196, 0) 100%);
+    background-size: cover;
 }
 
 .eatmi_text,
@@ -26,26 +25,40 @@
 .shop_text,
 .my_account_text,
 .sign_up_text,
-.Eng_Thai {
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+.Eng_Thai,
+.option1,
+.option2 {
+    font-family: 'M PLUS 1', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
     line-height: 32px;
+
+    color: #000000;
 }
 
 .eatmi_icon {
+    position: absolute;
+    left: 70px;
+    right: 90.14%;
+    top: 12px;
+    bottom: 91.48%;
+
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+
     background: #F9B609;
 }
 
 .eatmi_text {
     position: absolute;
-    left: 4%;
-    right: 90.5%;
-    top: -2%;
-    bottom: 93.48%;
-
-    font-size: 22px;
+    left: 3%;
+    right: 90.35%;
+    top: -6.1%;
+    bottom: 92.64%;
+    
+    font-weight: 400;
     line-height: 35px;
 
     color: #FFFFFF;
@@ -56,76 +69,114 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
+    gap: 80px;
     
     position: absolute;
-    left: 12.36%;
-    right: 55.69%;
-    top: 2.19%;
-    bottom: 95.67%;
-}
-
-.our_story_box {
-    position: static;
-    width: 150px;
-    height: 32px;
-    left: 0px;
-    top: 0px;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 32px;
-}
-
-.our_story_text {
-    position: absolute;
-    width: 161px;
-    height: 32px;
-    left: 0px;
-    top: 0px;
-}
-
-.shop_box {
-    position: absolute;
-    width: 23px;
-    height: 32px;
-    left: 198px;
-    top: 0px;
-
-    color: #000000;
+    left: 67px;
+    right: 54.38%;
+    top: 10px;
+    bottom: 92.9%;
 }
 
 .shop_text {
-    position: static;
-    width: 60px;
+    position: absolute;
+    width: 55px;
     height: 32px;
-    left: 0px;
+    left: 146px;
     top: 0px;
-
-    color: #000000;
-}
-
-.my_account_box {
-    position: static;
-    width: 177px;
-    height: 33px;
-    left: 293px;
-    top: 0px;
-    
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 0px 32px;
 }
 
 .my_account_text {
     position: absolute;
-    width: 152px;
+    left: 255px;
+    top: -12px;
+}
+
+.our_story_text {
+    position: absolute;
+    width: 106px;
     height: 32px;
-    left: 293px;
-    top: 0px;
-    
-    color: #000000;
+    left: 480px;
+    top: -12px;
+}
+
+.my_account_text:hover,
+.our_story_text:hover {
+    color: #F9B609 
+}
+
+.option1,
+.option2 {
+    margin-bottom: -12px;
+    width: 140px;
+    font-size: 20px;
+}
+
+.select-box1 {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 255px;
+    top: 60px;
+}
+
+.select-box2 {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 480px;
+    top: 60px;
+}
+
+.options-container1,
+.options-container2 {
+    color: #f5f6fa;
+    max-height: 0;
+    width: 200px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    order: 1;
+}
+  
+.select-box1 .options-container1.active,
+.select-box2 .options-container2.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+  
+.select-box1 .options-container1::-webkit-scrollbar,
+.select-box2 .options-container2::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+  
+.select-box1 .options-container1::-webkit-scrollbar-thumb,
+.select-box2 .options-container2::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+}
+  
+.select-box1 .option1,
+.select-box2 .option2,
+.my_account_text,
+.our_story_text {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+  
+.select-box1 label,
+.select-box2 label {
+    cursor: pointer;
+}
+  
+.select-box1 .option1 .radio,
+.select-box2 .option2 .radio {
+    display: none;
 }
 
 .right_taskbar {
@@ -136,10 +187,12 @@
     padding: 0px;
     
     position: absolute;
-    left: 74.72%;
-    right: 2.57%;
-    top: 1.81%;
-    bottom: 95.16%;
+    left: 1070px;
+    right: 73px;
+    top: 10px;
+    bottom: 92.32%;
+
+    float: right;
 }
 
 .bag {
@@ -158,33 +211,38 @@
 .sign_up_button {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     
     position: absolute;
     width: 128px;
-    height: 36px;
+    height: 39px;
     left: 88px;
     top: 8.5px;    
     
-    background: #F9B609;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border: 3px solid #F9B609;
+    box-sizing: border-box;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
+
+    cursor: pointer;
 }
 
 .sign_up_text {
     position: absolute;
     width: 100px;
     height: 32px;
-    left: 12px;
-    top: -22px;   
-
-    color: #000000;
+    left: auto;
+    top: -24px;  
+    
+    color: #F9B609;
 }
 
 .Eng_Thai {
@@ -196,8 +254,6 @@
     
     font-size: 24px;
     line-height: 35px;
-
-    color: #000000;
     
     mix-blend-mode: normal;
     
